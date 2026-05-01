@@ -1,0 +1,34 @@
+# 环境变量文件（包含敏感信息）
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# 数据库
+wifi_knowledge_db/
+
+# IDE
+.idea/
+.vscode/
+
+# 临时文件
+temp_*.py
+temp_*.pdf
+fix_*.py
+fix_*.ps1
+quick_fix.py
+test.py
+
+# 日志
+*.log
+
+# 操作系统
+.DS_Store
+Thumbs.db

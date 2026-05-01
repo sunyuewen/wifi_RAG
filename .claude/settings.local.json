@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show *)",
+      "Bash(python -c 'try: *)",
+      "Bash(python -c \"from langchain_openai import ChatOpenAI; print\\('ChatOpenAI OK'\\)\")",
+      "Bash(python -c \"from langchain.chains import create_retrieval_chain, create_history_aware_retriever; from langchain.chains.combine_documents import create_stuff_documents_chain; print\\('Chain creation functions OK'\\)\")",
+      "Bash(python -c \"from langchain_community.vectorstores import Chroma; print\\('Chroma OK'\\)\")",
+      "Bash(python -c \"from rag_modules import data_preparation, index_construction, retrieval_optimization, generation_integration; print\\('所有模块导入成功！'\\)\")",
+      "Bash(timeout 10 python -m uvicorn main:app --host 0.0.0.0 --port 8000)",
+      "Bash(python -m uvicorn main:app --host 0.0.0.0 --port 8000)",
+      "Bash(curl -s http://127.0.0.1:8000/health)",
+      "Bash(pkill -f \"uvicorn main:app\")",
+      "Bash(pip index *)",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"from langchain_community import __version__; print\\(__version__\\)\")",
+      "Bash(python -c \"import pkgutil; import sys; mods = [m.name for m in pkgutil.iter_modules\\(\\) if 'langchain' in m.name]; print\\('\\\\n'.join\\(sorted\\(mods\\)\\)\\)\")",
+      "Bash(python -c \"import pkgutil; mods = [m.name for m in pkgutil.iter_modules\\(langchain_community.__path__\\)] if 'langchain_community' in sys.modules else []; print\\('\\\\n'.join\\(sorted\\(mods\\)\\)\\)\")",
+      "Bash(python -c \"import langchain_community; import os; print\\(os.listdir\\(langchain_community.__path__[0]\\)\\)\")",
+      "Bash(conda activate *)",
+      "Bash(python -c \"import langchain_community; print\\(os.listdir\\(langchain_community.__path__[0]\\)\\)\")",
+      "Bash(python -c \"from langchain_community.retrievers import BM25Retriever, EnsembleRetriever; print\\('retrievers OK'\\)\")",
+      "Bash(conda run *)",
+      "Bash(python -c \"from rag_modules.index_construction import database_exists, get_document_count; print\\('Database exists:', database_exists\\(\\)\\); print\\('Document count:', get_document_count\\(\\)\\)\")",
+      "Bash(python -c \"from rag_modules.retrieval_optimization import get_route_result; print\\('Route function OK'\\)\")",
+      "Bash(pip list *)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :8000)",
+      "Bash(tasklist)",
+      "Bash(findstr 10528)",
+      "Bash(cmd /c \"type .env\")"
+    ]
+  }
+}

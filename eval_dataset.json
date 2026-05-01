@@ -1,0 +1,393 @@
+{
+  "version": "1.0",
+  "domain": "Wi-Fi 7 & wireless protocols",
+  "language": "zh-CN",
+  "description": "Wi-Fi GPT 检索质量评估数据集，用于计算 Recall@K、MRR、NDCG 等指标",
+  "entries": [
+    {
+      "id": 1,
+      "query": "WiFi 7相比WiFi 6有哪些主要改进",
+      "relevant_keywords": ["802.11be", "MLO", "4096-QAM", "320MHz", "多链路操作"],
+      "difficulty": "easy",
+      "category": "comparison"
+    },
+    {
+      "id": 2,
+      "query": "Wi-Fi 7的多链路操作MLO原理是什么",
+      "relevant_keywords": ["MLO", "多链路", "链路聚合", "STR", "NSTR", "MLD"],
+      "difficulty": "medium",
+      "category": "technical_detail"
+    },
+    {
+      "id": 3,
+      "query": "802.11be标准支持的频段有哪些",
+      "relevant_keywords": ["2.4GHz", "5GHz", "6GHz", "频段", "802.11be"],
+      "difficulty": "easy",
+      "category": "parameter"
+    },
+    {
+      "id": 4,
+      "query": "Wi-Fi 7最大信道带宽是多少",
+      "relevant_keywords": ["320MHz", "160MHz", "信道带宽", "带宽"],
+      "difficulty": "easy",
+      "category": "parameter"
+    },
+    {
+      "id": 5,
+      "query": "4096-QAM调制方式在WiFi 7中的作用",
+      "relevant_keywords": ["4096-QAM", "调制", "QAM", "符号率", "吞吐量"],
+      "difficulty": "medium",
+      "category": "technical_detail"
+    },
+    {
+      "id": 6,
+      "query": "WiFi 7的前导码打孔技术是什么",
+      "relevant_keywords": ["前导码打孔", "preamble puncturing", "干扰避免"],
+      "difficulty": "hard",
+      "category": "technical_detail"
+    },
+    {
+      "id": 7,
+      "query": "如何配置WiFi 7的路由器以获得最佳性能",
+      "relevant_keywords": ["配置", "路由器", "优化", "信道", "带宽设置"],
+      "difficulty": "medium",
+      "category": "how_to"
+    },
+    {
+      "id": 8,
+      "query": "WiFi 7和WiFi 6E的区别",
+      "relevant_keywords": ["WiFi 6E", "6GHz", "802.11ax", "802.11be", "区别"],
+      "difficulty": "easy",
+      "category": "comparison"
+    },
+    {
+      "id": 9,
+      "query": "Wi-Fi 7支持的MU-MIMO流数是多少",
+      "relevant_keywords": ["MU-MIMO", "空间流", "16", "流数"],
+      "difficulty": "medium",
+      "category": "parameter"
+    },
+    {
+      "id": 10,
+      "query": "什么是OFDMA技术在WiFi中的应用",
+      "relevant_keywords": ["OFDMA", "正交频分多址", "资源单元", "RU", "多用户"],
+      "difficulty": "medium",
+      "category": "technical_detail"
+    },
+    {
+      "id": 11,
+      "query": "WiFi 7的理论最大吞吐量",
+      "relevant_keywords": ["吞吐量", "46Gbps", "速率", "峰值"],
+      "difficulty": "easy",
+      "category": "parameter"
+    },
+    {
+      "id": 12,
+      "query": "Wi-Fi 7的多AP协作技术",
+      "relevant_keywords": ["多AP", "协作", "AP协调", "C-APC"],
+      "difficulty": "hard",
+      "category": "technical_detail"
+    },
+    {
+      "id": 13,
+      "query": "802.11be的TWT目标唤醒时间机制",
+      "relevant_keywords": ["TWT", "目标唤醒时间", "省电", "唤醒", "调度"],
+      "difficulty": "medium",
+      "category": "technical_detail"
+    },
+    {
+      "id": 14,
+      "query": "WiFi信号强度RSSI多少算正常",
+      "relevant_keywords": ["RSSI", "信号强度", "dBm", "覆盖"],
+      "difficulty": "easy",
+      "category": "parameter"
+    },
+    {
+      "id": 15,
+      "query": "WiFi 7的BSS着色技术原理",
+      "relevant_keywords": ["BSS Coloring", "BSS着色", "空间复用", "干扰识别"],
+      "difficulty": "hard",
+      "category": "technical_detail"
+    },
+    {
+      "id": 16,
+      "query": "WiFi 6和WiFi 7在延迟方面的对比",
+      "relevant_keywords": ["延迟", "latency", "低延迟", "实时"],
+      "difficulty": "medium",
+      "category": "comparison"
+    },
+    {
+      "id": 17,
+      "query": "Wi-Fi 7对游戏和VR应用的支持",
+      "relevant_keywords": ["低延迟", "实时", "VR", "游戏", "QoS"],
+      "difficulty": "medium",
+      "category": "application"
+    },
+    {
+      "id": 18,
+      "query": "WiFi 7设备需要什么硬件支持",
+      "relevant_keywords": ["硬件", "芯片", "天线", "兼容", "支持"],
+      "difficulty": "easy",
+      "category": "how_to"
+    },
+    {
+      "id": 19,
+      "query": "如何优化WiFi信号覆盖范围",
+      "relevant_keywords": ["覆盖", "信号", "优化", "天线", "功率"],
+      "difficulty": "easy",
+      "category": "how_to"
+    },
+    {
+      "id": 20,
+      "query": "WiFi 7的1024-QAM和4096-QAM的区别",
+      "relevant_keywords": ["1024-QAM", "4096-QAM", "调制", "比特", "符号"],
+      "difficulty": "medium",
+      "category": "comparison"
+    },
+    {
+      "id": 21,
+      "query": "802.11be协议什么时候正式发布",
+      "relevant_keywords": ["802.11be", "标准", "发布", "时间", "IEEE"],
+      "difficulty": "easy",
+      "category": "parameter"
+    },
+    {
+      "id": 22,
+      "query": "WiFi 7的链路聚合如何提高可靠性",
+      "relevant_keywords": ["链路聚合", "MLO", "可靠性", "冗余", "故障切换"],
+      "difficulty": "medium",
+      "category": "technical_detail"
+    },
+    {
+      "id": 23,
+      "query": "WiFi信道宽度对性能的影响",
+      "relevant_keywords": ["信道宽度", "20MHz", "40MHz", "80MHz", "160MHz"],
+      "difficulty": "medium",
+      "category": "technical_detail"
+    },
+    {
+      "id": 24,
+      "query": "WiFi 7向下兼容WiFi 6和WiFi 5吗",
+      "relevant_keywords": ["兼容", "向下兼容", "802.11ax", "802.11ac"],
+      "difficulty": "easy",
+      "category": "parameter"
+    },
+    {
+      "id": 25,
+      "query": "WiFi 7的160MHz信道在5GHz频段的使用",
+      "relevant_keywords": ["160MHz", "5GHz", "信道", "频段"],
+      "difficulty": "medium",
+      "category": "technical_detail"
+    },
+    {
+      "id": 26,
+      "query": "WiFi 7中320MHz信道只能在6GHz频段使用吗",
+      "relevant_keywords": ["320MHz", "6GHz", "频段", "限制"],
+      "difficulty": "medium",
+      "category": "technical_detail"
+    },
+    {
+      "id": 27,
+      "query": "如何解决WiFi信号干扰问题",
+      "relevant_keywords": ["干扰", "信道", "避免", "BSS Coloring"],
+      "difficulty": "easy",
+      "category": "how_to"
+    },
+    {
+      "id": 28,
+      "query": "WiFi 7的MAC层改进有哪些",
+      "relevant_keywords": ["MAC", "介质访问控制", "协议", "改进"],
+      "difficulty": "hard",
+      "category": "technical_detail"
+    },
+    {
+      "id": 29,
+      "query": "WiFi 7的多RU分配机制",
+      "relevant_keywords": ["RU", "资源单元", "OFDMA", "分配", "多RU"],
+      "difficulty": "hard",
+      "category": "technical_detail"
+    },
+    {
+      "id": 30,
+      "query": "WiFi 7对IoT物联网设备的支持",
+      "relevant_keywords": ["IoT", "物联网", "低功耗", "TWT"],
+      "difficulty": "medium",
+      "category": "application"
+    },
+    {
+      "id": 31,
+      "query": "WiFi 7的空间流数量提升",
+      "relevant_keywords": ["空间流", "MIMO", "8", "16", "流"],
+      "difficulty": "medium",
+      "category": "parameter"
+    },
+    {
+      "id": 32,
+      "query": "802.11be与802.11ax的关键差异",
+      "relevant_keywords": ["802.11be", "802.11ax", "差异", "对比"],
+      "difficulty": "medium",
+      "category": "comparison"
+    },
+    {
+      "id": 33,
+      "query": "WiFi WPA3安全协议在WiFi 7中的应用",
+      "relevant_keywords": ["WPA3", "安全", "加密", "认证"],
+      "difficulty": "medium",
+      "category": "technical_detail"
+    },
+    {
+      "id": 34,
+      "query": "WiFi 7路由器推荐购买哪些型号",
+      "relevant_keywords": ["路由器", "推荐", "型号", "购买"],
+      "difficulty": "easy",
+      "category": "how_to"
+    },
+    {
+      "id": 35,
+      "query": "WiFi信号衰减与距离的关系",
+      "relevant_keywords": ["衰减", "距离", "信号", "路径损耗"],
+      "difficulty": "medium",
+      "category": "technical_detail"
+    },
+    {
+      "id": 36,
+      "query": "WiFi 7的双连接模式STR和NSTR的区别",
+      "relevant_keywords": ["STR", "NSTR", "同步", "非同步", "双连接"],
+      "difficulty": "hard",
+      "category": "technical_detail"
+    },
+    {
+      "id": 37,
+      "query": "WiFi 7对8K视频传输的支持",
+      "relevant_keywords": ["8K", "视频", "带宽", "吞吐量", "传输"],
+      "difficulty": "medium",
+      "category": "application"
+    },
+    {
+      "id": 38,
+      "query": "WiFi频段2.4G和5G的优缺点对比",
+      "relevant_keywords": ["2.4GHz", "5GHz", "覆盖", "速率", "穿墙"],
+      "difficulty": "easy",
+      "category": "comparison"
+    },
+    {
+      "id": 39,
+      "query": "WiFi 7的波束成形技术",
+      "relevant_keywords": ["波束成形", "beamforming", "MU-MIMO", "定向"],
+      "difficulty": "medium",
+      "category": "technical_detail"
+    },
+    {
+      "id": 40,
+      "query": "如何检测和排查WiFi网络故障",
+      "relevant_keywords": ["故障", "排查", "诊断", "检测"],
+      "difficulty": "easy",
+      "category": "how_to"
+    },
+    {
+      "id": 41,
+      "query": "WiFi 7的EHT PHY物理层特性",
+      "relevant_keywords": ["EHT", "PHY", "物理层", "802.11be"],
+      "difficulty": "hard",
+      "category": "technical_detail"
+    },
+    {
+      "id": 42,
+      "query": "WiFi 6引入的BSS着色在WiFi 7中有增强吗",
+      "relevant_keywords": ["BSS Coloring", "增强", "空间复用", "OBSS"],
+      "difficulty": "hard",
+      "category": "comparison"
+    },
+    {
+      "id": 43,
+      "query": "WiFi 7的组播和广播改进",
+      "relevant_keywords": ["组播", "广播", "multicast", "改进"],
+      "difficulty": "hard",
+      "category": "technical_detail"
+    },
+    {
+      "id": 44,
+      "query": "WiFi 7对企业级部署的影响",
+      "relevant_keywords": ["企业", "部署", "高密度", "办公"],
+      "difficulty": "medium",
+      "category": "application"
+    },
+    {
+      "id": 45,
+      "query": "WiFi天线增益如何选择",
+      "relevant_keywords": ["天线", "增益", "dBi", "选择"],
+      "difficulty": "easy",
+      "category": "how_to"
+    },
+    {
+      "id": 46,
+      "query": "WiFi 7的非连续信道操作",
+      "relevant_keywords": ["非连续", "信道", "频谱", "聚合"],
+      "difficulty": "hard",
+      "category": "technical_detail"
+    },
+    {
+      "id": 47,
+      "query": "WiFi 7与5G网络的互补关系",
+      "relevant_keywords": ["5G", "互补", "融合", "固移融合"],
+      "difficulty": "medium",
+      "category": "comparison"
+    },
+    {
+      "id": 48,
+      "query": "WiFi 7对智能家居场景的优化",
+      "relevant_keywords": ["智能家居", "IoT", "多设备", "并发"],
+      "difficulty": "medium",
+      "category": "application"
+    },
+    {
+      "id": 49,
+      "query": "WiFi 7的确定性延迟保障机制",
+      "relevant_keywords": ["确定性", "延迟", "保障", "时间敏感", "TSN"],
+      "difficulty": "hard",
+      "category": "technical_detail"
+    },
+    {
+      "id": 50,
+      "query": "WiFi 7的CSMA/CA改进",
+      "relevant_keywords": ["CSMA/CA", "信道接入", "竞争", "改进"],
+      "difficulty": "hard",
+      "category": "technical_detail"
+    },
+    {
+      "id": 51,
+      "query": "你好",
+      "relevant_keywords": [],
+      "difficulty": "easy",
+      "category": "chitchat"
+    },
+    {
+      "id": 52,
+      "query": "谢谢你的帮助",
+      "relevant_keywords": [],
+      "difficulty": "easy",
+      "category": "chitchat"
+    },
+    {
+      "id": 53,
+      "query": "WiFi协议标准演进历史",
+      "relevant_keywords": ["802.11", "演进", "历史", "标准", "a/b/g/n/ac/ax/be"],
+      "difficulty": "medium",
+      "category": "technical_detail"
+    },
+    {
+      "id": 54,
+      "query": "WiFi 7的省电机制有哪些",
+      "relevant_keywords": ["省电", "TWT", "WUR", "休眠"],
+      "difficulty": "medium",
+      "category": "technical_detail"
+    },
+    {
+      "id": 55,
+      "query": "如何选择WiFi信道以避免干扰",
+      "relevant_keywords": ["信道", "干扰", "选择", "1/6/11", "DFS"],
+      "difficulty": "easy",
+      "category": "how_to"
+    }
+  ]
+}
